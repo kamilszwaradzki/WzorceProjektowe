@@ -8,7 +8,7 @@
 /**
  * Description of PlaskonosKaczka
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
 class PlaskonosKaczka extends Kaczka {
     //put your code here

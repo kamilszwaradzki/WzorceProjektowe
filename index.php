@@ -11,18 +11,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <body>
         <?php
         spl_autoload_register(function ($class_name) {
-            include './Klasy/' . $class_name . '.php';
+            include './Rozdzial_Pierwszy/Klasy/' . $class_name . '.php';
         });
-        $dzika = new DzikaKaczka();
-        $dzika->wykonajKwacz();
-        echo "<br/>";
-        $dzika->wykonajLec();
-        echo "<br/>";
-        $gumowa = new GumowaKaczka();
-        $gumowa->wykonajKwacz();
-        echo "<br/>";
-        $gumowa->wykonajLec();
-        echo "<br/>";
+        MiniSymulatorKaczki::execute();
         ?>
     </body>
 </html>

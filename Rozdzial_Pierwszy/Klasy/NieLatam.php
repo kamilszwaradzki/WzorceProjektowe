@@ -1,5 +1,5 @@
 <?php
-require_once 'Interfejsy/LatanieInterfejs.php';
+require_once 'Rozdzial_Pierwszy/Interfejsy/LatanieInterfejs.php';
 require_once 'Latanie.php';
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -9,10 +9,10 @@ require_once 'Latanie.php';
 /**
  * Description of NieLatam
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
 class NieLatam extends Latanie implements LatanieInterfejs {
     function lec() {
-        echo 'Nie umiem latać!';
+        printf("%s<br/>", 'Nie umiem latać!');
     }
 }

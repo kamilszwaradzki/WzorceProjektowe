@@ -1,5 +1,5 @@
 <?php
-require_once 'Interfejsy/KwakanieInterfejs.php';
+require_once 'Rozdzial_Pierwszy/Interfejsy/KwakanieInterfejs.php';
 require_once 'Kwakanie.php';
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -7,12 +7,12 @@ require_once 'Kwakanie.php';
  */
 
 /**
- * Description of Piszcz
+ * Description of NieKwacz
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
-class Piszcz extends Kwakanie implements KwakanieInterfejs {
+class NieKwacz extends Kwakanie implements KwakanieInterfejs {
     function kwacz() {
-        echo "Piszczę!";
+        echo "<<<CISZA>>>";
     }
 }

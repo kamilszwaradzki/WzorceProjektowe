@@ -8,23 +8,31 @@
 /**
  * Description of Kaczka
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
 abstract class Kaczka {
     
     public Latanie $latanieInterfejs;
     public Kwakanie $kwakanieInterfejs;
+
     public function wykonajLec() {
         $this->latanieInterfejs->lec();
     }
+
     public function wykonajKwacz() {
         $this->kwakanieInterfejs->kwacz();
     }
+
+    public function ustawLatanieInterfejs(Latanie $li) {
+        $this->latanieInterfejs = $li;
+    }
+
+    public function ustawKwakanieInterfejs(Kwakanie $ki) {
+        $this->kwakanieInterfejs = $ki;
+    }
+
     function wyswietl() {
         return 'Wygląda jak zwyczajna kaczka';
-    }
-    function lec() {
-        return 'fru fru';
     }
     
 }

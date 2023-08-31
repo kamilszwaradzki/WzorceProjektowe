@@ -10,7 +10,7 @@ require_once 'LatamBoMamSkrzydla.php';
 /**
  * Description of DzikaKaczka
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
 class DzikaKaczka extends Kaczka {
     public function __construct() {
