@@ -7,8 +7,8 @@
 
 /**
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
-interface KwakanieInterfejs {
-    function kwacz();
+interface LatanieInterfejs {
+    function lec();
 }

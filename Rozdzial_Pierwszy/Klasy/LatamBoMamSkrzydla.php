@@ -1,5 +1,5 @@
 <?php
-require_once 'Interfejsy/LatanieInterfejs.php';
+require_once 'Rozdzial_Pierwszy/Interfejsy/LatanieInterfejs.php';
 require_once 'Latanie.php';
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -9,10 +9,10 @@ require_once 'Latanie.php';
 /**
  * Description of LatamBoMamSkrzydla
  *
- * @author tom
+ * @author Kamil Szwaradzki <kamil.szwaradzki at your.org>
  */
 class LatamBoMamSkrzydla extends Latanie implements LatanieInterfejs {
     function lec() {
-        echo 'O rany! Latam!';
+        printf("%s<br/>", 'O rany! Latam!');
     }
 }
