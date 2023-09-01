@@ -11,9 +11,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <body>
         <?php
         spl_autoload_register(function ($class_name) {
-            include './Rozdzial_Pierwszy/Klasy/' . $class_name . '.php';
+//            include './Rozdzial_Pierwszy/Klasy/' . $class_name . '.php';
+            include './Rozdzial_Drugi/Klasy/' . $class_name . '.php';
         });
-        MiniSymulatorKaczki::execute();
+//        MiniSymulatorKaczki::execute();
+        StacjaMeteo::execute()
         ?>
     </body>
 </html>
