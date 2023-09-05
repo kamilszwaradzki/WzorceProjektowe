@@ -13,11 +13,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         spl_autoload_register(function ($class_name) {
 //            include './Rozdzial_Pierwszy/Klasy/' . $class_name . '.php';
 //            include './Rozdzial_Drugi/Klasy/' . $class_name . '.php';
-            include './Rozdzial_Trzeci/Klasy/' . $class_name . '.php';
+//            include './Rozdzial_Trzeci/Klasy/' . $class_name . '.php';
+            include './Rozdzial_Czwarty/Klasy/' . $class_name . '.php';
         });
 //        MiniSymulatorKaczki::execute();
 //        StacjaMeteo::execute()
-        StarCafe::execute();
+//        StarCafe::execute();
+        PizzaTest::execute();
         ?>
     </body>
 </html>
