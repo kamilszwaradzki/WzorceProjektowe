@@ -26,7 +26,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 //        SingletonTest::execute();
 //        MiniPilotTest::execute();
 //        ProgramowaniePilota::execute();
-        TestowanieKaczki::execute();
+//        TestowanieKaczki::execute();
+        FasadaKinaDomowegoTest::execute();
         ?>
     </body>
 </html>
