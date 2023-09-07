@@ -32,7 +32,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 //        FasadaKinaDomowegoTest::execute();
 //        NapojeJazdaProbna::execute();
 //        TestSortowanieKaczek::execute();
-        MenuTest::execute();
+//        MenuTest::execute();
+        KMenuTest::execute();
         ?>
 <!--
         <br/>

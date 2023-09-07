@@ -8,4 +8,4 @@ Moje implementacje kodów z książki "Rusz głową! Wzorce Projektowe" wyd. 1
 6) Rozdział Szósty - wzorzec Polecenie
 7) Rozdział Siódmy - wzorzec Adapter(Kaczka/Indyk) oraz wzorzec Fasada(Kino Domowe)
 8) Rozdział Ósmy - wzorzec Metoda Szablonowa
-9) Rozdział Dziewiąty - wzorzec Iterator(DinerMenu/PancakeHouseMenu)
+9) Rozdział Dziewiąty - wzorzec Iterator(DinerMenu/PancakeHouseMenu) oraz wzorzec Kompozyt(Menu)
