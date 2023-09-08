@@ -37,3 +37,63 @@ Moje implementacje kodów z książki "Rusz głową! Wzorce Projektowe" wyd. 1
   - **Wzorzec Kompozyt** (Stado)
   - **Wzorzec Iterator** (metoda kwacz w klasie Stado)
   - **Wzorzec Obserwator** (Obserwowany)
+13) Rozdział Trzynasty - **kategorie Wzorców**
+>**Wzorce konstrukcyjne** opisują proces tworzenia nowych obiektów; ich zadaniem jest tworzenie, inicjalizacja oraz konfiguracja obiektów i klas.
+  - Wzorce konstrukcyjne
+    - **Singleton**
+    - **Budowniczy**
+    - **Prototyp**
+    - **Fabryka Abstrakcyjna**
+    - **Metoda Fabrykująca**
+>**Wzorce Operacyjne** opisują zachowanie i odpowiedzialność współpracujących ze sobą obiektów.
+  - Wzorce Operacyjne
+    - **Mediator**
+    - **Odwiedzający**
+    - **Metoda Szablonowa**
+    - **Iterator**
+    - **Polecenie**
+    - **Pamiątka**
+    - **Interpreter**
+    - **Obserwator**
+    - **Łańcuch odpowiedzialności**
+    - **Stan**
+    - **Strategia**
+>**Wzorce Strukturalne** pozwalają łączyć klasy i obiekty w większe struktury.
+  - Wzorce Strukturalne
+    - **Proxy**
+    - **Dekorator**
+    - **Kompozyt**
+    - **Fasada**
+    - **Pyłek**
+    - **Most**
+    - **Adapter**
+
+*Wzorce klasyfikuje się również w oparciu o to, czy operują klasami, czy obiektami:*
+
+>**Wzorce Klas** opisują statyczne związki pomiędzy klasami.
+  - Wzorce Klas
+    - **Metoda Szablonowa**
+    - **Metoda Fabrykująca**
+    - **Adapter**
+    - **Interpreter**
+>**Wzorce Obiektów** opisują dynamiczne związki pomiędzy obiektami.
+  - Wzorce Obiektów
+    - **Kompozyt**
+    - **Odwiedzający**
+    - **Dekorator**
+    - **Iterator**
+    - **Polecenie**
+    - **Pamiątka**
+    - **Fasada**
+    - **Proxy**
+    - **Obserwator**
+    - **Strategia**
+    - **Łańcuch Odpowiedzialności**
+    - **Most**
+    - **Mediator**
+    - **Stan**
+    - **Piórko**
+    - **Prototyp**
+    - **Fabryka Abstrakcyjna**
+    - **Budowniczy**
+    - **Singleton**
