@@ -21,7 +21,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 //            include './Rozdzial_Osmy/Klasy/' . $class_name . '.php';
 //            include './Rozdzial_Dziewiaty/Klasy/' . $class_name . '.php';
 //            include './Rozdzial_Dziesiaty/Klasy/' . $class_name . '.php';
-            include './Rozdzial_Jedynasty/Klasy/' . $class_name . '.php';
+//            include './Rozdzial_Jedynasty/Klasy/' . $class_name . '.php';
+            include './Rozdzial_Dwunasty/Klasy/' . $class_name . '.php';
         });
 //        MiniSymulatorKaczki::execute();
 //        StacjaMeteo::execute()
@@ -37,7 +38,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 //        MenuTest::execute();
 //        KMenuTest::execute();
 //        AutomatSprzedajacyTest::exectue();
-        ProxyTest::execute();
+//        ProxyTest::execute();
+        SymulatorKaczek::execute();
         ?>
 <!--
         <br/>
