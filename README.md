@@ -97,3 +97,21 @@ Moje implementacje kodów z książki "Rusz głową! Wzorce Projektowe" wyd. 1
     - **Fabryka Abstrakcyjna**
     - **Budowniczy**
     - **Singleton**
+14) Rozdział Czternasty - **Inne wzorce**
+>**Wzorzec Most** pozwala oddzielić abstrakcję obiektu od jego implementacji oraz zapewnia możliwość modyfikowania nie tylko implementacji, ale i stosowanych abstrakcji.
+
+>**Wzorzec Budowniczy** hermetyzuje tworzenie produktu i umożliwia jego wieloetapowe inicjacjowanie.
+
+>**Wzorzec Łańcuch Odpowiedzialności** stosujemy wtedy, gdy kolejne żądania mają być obsługiwane przez różne obiekty.
+
+>**Wzorzec Piórko** stosujemy wtedy, gdy jeden egzemplarz klasy może zostać wykorzystany do stworzenia wielu "egzemplarzy wirtualnych".
+
+>**Wzorzec Interpreter** używamy do budowania interpretera pewnego języka interpretowanego.
+
+>**Wzorzec Mediator** używamy do skupiania złożonych procedur komunikacji i sterowania w środowisku powiązanych obiektów.
+
+>**Wzorzec Pamiątka** używamy wtedy, gdy potrzebujemy możliwości przywrócenia obiektu do jednego z wcześniejszych stanów. Przykładem może być operacja użytkownika "Cofnij".
+
+>**Wzorzec Prototyp** umożliwia tworzenie obiektów danej klasy bądź klas z wykorzystaniem już istniejącego obiektu, zwanego prototypem.
+
+>**Wzorzec Odwiedzający** używamy, aby rozbudować zakres funkcji obiektów kompozytowych, gdy hermetyzacja nie jest ważna
