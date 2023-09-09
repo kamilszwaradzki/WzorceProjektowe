@@ -39,7 +39,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 //        KMenuTest::execute();
 //        AutomatSprzedajacyTest::exectue();
 //        ProxyTest::execute();
-        SymulatorKaczek::execute();
+//        SymulatorKaczek::execute();
+        CurrencyConverterTest::execute();
         ?>
 <!--
         <br/>
