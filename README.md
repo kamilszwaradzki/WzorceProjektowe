@@ -37,6 +37,8 @@ Moje implementacje kodów z książki "Rusz głową! Wzorce Projektowe" wyd. 1
   - **Wzorzec Kompozyt** (Stado)
   - **Wzorzec Iterator** (metoda kwacz w klasie Stado)
   - **Wzorzec Obserwator** (Obserwowany)
+- **Wzorzec MVC** (CurrencyConverter)
+> **Wzorzec MVC** jest wzorcem projektowym, który polega na separacji odpowiedzialności za aplikację pomiędzy trzy jednostki; model, widok oraz kontroler. Żądanie odbiera odpowiedni kontroler który komunikuje się z modelem. Model zaś zarządza wszelkimi danymi i dostarcza je kontrolerowi. Ten natomiast mając już dane jest wstanie dostarczyć odpowiedni widok (z danymi) użytkownikowi.
 13) Rozdział Trzynasty - **kategorie Wzorców**
 >**Wzorce konstrukcyjne** opisują proces tworzenia nowych obiektów; ich zadaniem jest tworzenie, inicjalizacja oraz konfiguracja obiektów i klas.
   - Wzorce konstrukcyjne
